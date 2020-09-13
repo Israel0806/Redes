@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "xtree": "cpp",
+        "ostream": "cpp",
+        "xiosbase": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp"
+    }
+}
