@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "xtree": "cpp",
+        "ostream": "cpp",
+        "xiosbase": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "xstring": "cpp",
+        "streambuf": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp",
+        "limits": "cpp"
+    }
+}

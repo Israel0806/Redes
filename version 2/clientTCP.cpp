@@ -69,7 +69,7 @@ int main(void)
   // structure
   stSockAddr.sin_family = AF_INET;
   stSockAddr.sin_port = htons(50001);                              // port number
-  Res = inet_pton(AF_INET, "192.168.43.37", &stSockAddr.sin_addr); // IP
+  Res = inet_pton(AF_INET, "192.168.1.41", &stSockAddr.sin_addr); // IP
 
   /// connect(socket, structure, sizeof(structure))
   connect(socketClient, (const struct sockaddr *)&stSockAddr, sizeof(struct sockaddr_in));
