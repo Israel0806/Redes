@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\shaders\shader.fs" />
+    <None Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\shaders\shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0A68DEAC-40CA-317A-8EBC-8FEE579F122B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5859A0E0-D467-3882-A417-100EA726ED59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

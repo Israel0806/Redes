@@ -66,16 +66,7 @@ void processInput (GLFWwindow *window, int key, int scancode, int action, int mo
 void mouseButtonCallback (GLFWwindow *window, int button, int action, int mods);
 void scrollCallback (GLFWwindow *window, double xOffset, double yOffset);
 
-void bufferConfig (float *vertices, int size) {
-	glGenVertexArrays (1, &VAO);
-	glGenBuffers (1, &VBO);
-	glBindVertexArray (VAO);
-
-	glBindBuffer (GL_ARRAY_BUFFER, VBO);
-	glBufferData (GL_ARRAY_BUFFER, size * sizeof (vertices[0]), vertices, GL_STATIC_DRAW);
-	glVertexAttribPointer (0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof (float), (void *)0);
-	glEnableVertexAttribArray (0);
-}
+// AABB vec4(left,right,up,down)
 
 bool CheckCollision (vec4 AABB1, vec4 AABB2) // AABB - AABB collision
 {
@@ -95,6 +86,17 @@ void reduceLife () {
 	cout << "The ship has creashed into an asteroid\n";
 	cout << "Life left: " << life << "\n";
 }
+
+/*
+Vista local del objeto = vec3
+Vista del mundo  = Model
+Vista de la camara = View
+Vista de la perspectiva = projection
+
+gl_position = Model * View * projection * vec4(vec3,1.f);
+
+*/
+
 
 void drawBaseRocks (vec2 offset, mat4 offsetShipModel) {
 	for ( int i = 0; i < (sizeof (bottomRockRotation) / sizeof (bottomRockRotation[0])); ++i ) {
@@ -163,6 +165,7 @@ void displayWindow (GLFWwindow *window) {
 		shipModel->Draw (shader);
 
 		// draw bottom layer
+		// vec3 tam = 8 
 		drawBaseRocks (vec2 (0.f, -7.f), model);
 		drawBaseRocks (vec2 (20.f, -7.f), model);
 		drawBaseRocks (vec2 (40.f, -7.f), model);
