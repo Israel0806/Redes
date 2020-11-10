@@ -175,11 +175,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\gradius\include\Client.h" />
+    <ClInclude Include="..\..\..\..\..\src\gradius\include\TransportProtocol.h" />
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\Mesh.h" />
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\Model.h" />
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\camera.h" />
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\shader.h" />
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\stb_image.h" />
+    <ClCompile Include="..\..\..\..\..\src\gradius\src\Client.cpp" />
     <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\Mesh.cpp" />
     <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\Model.cpp" />
     <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\main.cpp" />

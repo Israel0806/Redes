@@ -10,6 +10,9 @@
     <ClCompile Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\gradius\src\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\Mesh.h">
@@ -25,6 +28,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\UCSP\Semestres\Semestre_VIII\Redes\Redes\Juego1\src\gradius\include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\gradius\include\Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\gradius\include\TransportProtocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
