@@ -1,4 +1,0 @@
-D:/UCSP/Semestres/Semestre_VIII/Redes/Redes/Juego1/build/mak.vc16/x64/CMakeFiles/ALL_BUILD.dir
-D:/UCSP/Semestres/Semestre_VIII/Redes/Redes/Juego1/build/mak.vc16/x64/CMakeFiles/ZERO_CHECK.dir
-D:/UCSP/Semestres/Semestre_VIII/Redes/Redes/Juego1/build/mak.vc16/x64/src/gradius/CMakeFiles/GradiusClone.dir
-D:/UCSP/Semestres/Semestre_VIII/Redes/Redes/Juego1/build/mak.vc16/x64/src/gradius/CMakeFiles/ALL_BUILD.dir
